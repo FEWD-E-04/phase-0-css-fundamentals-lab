@@ -1,5 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+}
+
+.centered {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+header h1 {
+  padding: 20px;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: #ccc;
+}
+
+.centered p {
+  padding: 20px;
+}
+
+#details {
+  background-color: red;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+#details > div {
+  display: inline-block;
+  width: 24.7%;
+  text-align: center;
 }
